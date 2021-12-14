@@ -1,0 +1,41 @@
+body {
+  background-color: grey;
+  border: 1px dashed black;
+  border: 3px dotted rgb(0, 0, 0);
+}
+
+.black-border {
+  border: 5px solid black;
+}
+
+.blue-color {
+ border-bottom: 10px dashed green ;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.white-color {
+  color: aquamarine;
+}
+
+#green-background{
+  background-color: green;
+  font-family: 'Akaya Telivigala', cursive;
+  color: grey;
+}
+
+p {
+  font-style: oblique;
+  color: white;
+}
+
+h1, h2 {
+  font-style: oblique;
+  color: white;
+  font-weight: bold;
+  font-family: 'Akaya Telivigala', cursive;
+}
+.hover {
+	width: 200px;
+	height: 214px;
+	background: #fff no-repeat;
+	border: 12px dashed #1b1a19; }
+
