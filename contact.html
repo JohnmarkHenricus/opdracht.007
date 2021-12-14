@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact formulier</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <!--add data-netlify="true" in form atribute-->
+    <form name="contact" method="POST" data-netlify="true">
+        First name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        Email:<input type="email" required="@" name="email"><br>
+        Password<input type="password" min="5"><br>
+        Birthday<input type="date"><br>
+        Gender<br>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <input type="radio" name="gender" value="Other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="cat"> Cat<br>
+        <input type="checkbox" name="dog"> Dog<br>
+        Cars<br>
+        <select name="Cars">
+            <option value="volvo">Volvo</option>
+            <option value="volvo">Audi</option>
+        </select><br>
+        <textarea rows="4" cols="50" name="comment" form="usrform"> aanvullende Informatie...</textarea><br>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+    <nav>
+        <a href="index.html">
+            <p>Ga terug naar home pagina</p>
+        </a>
+        <a href="contact.html">
+            <p class="black-border">Klik hier voor contact</p>
+        </a>
+        <a href="https://www.google.nl/">Zoek mij op in google</a>
+    </nav>
+
+</body>
+
+</html>
